@@ -1,10 +1,4 @@
-height = 1.65 
-weight = 84
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill?\n"))
 
-# Write your code here.
-# Calculate the bmi using weight and height.
-bmi = weight / (height ** 2)
-
-print(bmi)
-
-
+print(bill)
