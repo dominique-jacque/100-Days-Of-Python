@@ -41,8 +41,12 @@ if direction_decision == "left":
             door_decision = input("Now you came across three doors. Which one will you go through? Purple, Blue, or Red? ").lower()
             if door_decision == "red":
                 print("You found the Treasure! YOU WON!")
+            elif door_decision == "purple":
+                print("It's a room full of snakes! Game Over")
+            elif door_decision == "blue":
+                print("It's a room full of tigers! Game Over!")
             else:
-                print("Wrong door! Game Over.")
+                print("You chose a door that doesn't exist! Game Over.")
         else:
             print("They captured you! Game Over.")
     else:
