@@ -1,13 +1,14 @@
 import random
 
-# random_integer = random.randint(1, 10)
-# print(random_integer)
-# random_number_0_to_1 = random.random() * 10
-# print(random_number_0_to_1)
+# Exercise 1:  Heads or Tails
+random_heads_or_tails = random.randint(0, 1)
+if random_heads_or_tails == 0:
+   print("Heads")
+else:
+    print("Tails") 
 
-# random_float = random.uniform(1, 10) # this works the same as the random function but may include the upper bound
-# print(random_float)
+# Exercise 2: Who will pay the bill?
+friends = ["Alex", "Beckham", "Jackie", "Tori", "Roy", "Naomi", "James"]
+random_friend = random.choice(friends)
 
-# Exercise 1
-print("Heads") # even
-print("Tails") # odd
+print(random_friend)
