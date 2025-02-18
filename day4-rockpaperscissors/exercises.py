@@ -9,6 +9,11 @@ else:
 
 # Exercise 2: Who will pay the bill?
 friends = ["Alex", "Beckham", "Jackie", "Tori", "Roy", "Naomi", "James"]
-random_friend = random.choice(friends)
 
+# Method 1
+random_friend = random.choice(friends)
 print(random_friend)
+
+# Method 2
+random_index = random.randint(0, 4)
+print(friends[random_index])
