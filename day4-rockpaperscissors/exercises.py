@@ -17,3 +17,12 @@ print(random_friend)
 # Method 2
 random_index = random.randint(0, 4)
 print(friends[random_index])
+
+# Exercise 3:
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+ 
+dirty_dozen = [fruits, vegetables]
+
+print(dirty_dozen[1][1])
+
